@@ -11,7 +11,7 @@ garp= arp.add_mutually_exclusive_group();
 garp.add_argument("-g", "--group", help="User group ID", default=0);
 garp.add_argument("-u", "--user", help="User ID", default=0);
 arp.add_argument("-m", "--month", help="Billing month, default previous", default=0);
-arp.add_argument("-e", "--email", help="Target email address", default='kallen@ccsius.com')
+arp.add_argument("-e", "--email", help="Target email address", default='nobody@localhost')
 arp.add_argument("-l", "--list", help="List users and groups", action="store_true");
 args = arp.parse_args();
 
